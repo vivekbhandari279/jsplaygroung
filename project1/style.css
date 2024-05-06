@@ -1,0 +1,33 @@
+html {
+    margin: 0;
+  }
+  .canvas {
+    margin: 100px auto 100px;
+    width: 80%;
+    text-align: center;
+  }
+  span {
+    /* display: block; */
+  }
+  .button {
+    display: inline-block;
+    height: 10vh;
+    width: 10vh;
+    border: solid black 2px;
+    margin: 1%;
+  }
+  #gray {
+    background-color: gray;
+  }
+  #white {
+    background-color: white;
+  }
+  #blue {
+    background-color: blue;
+  }
+  #yellow {
+    background-color: yellow;
+  }
+  #line {
+    width: 100%;
+  }
