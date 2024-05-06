@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="formBox">
+      <div class="inputBox">
+        <label for="age">Age: </label>
+        <input type="number" name="age" id="age" value="2" min="2" max="120" />
+      </div>
+
+      <div class="inputBox">
+        <label for="gender">Gender :</label>
+        <input type="radio" name="gender" id="male" value="male" checked />
+        <input type="radio" name="gender" id="female" value="female" />
+      </div>
+
+      <div class="inputBox">
+        <label for="height">Height (cm) :</label>
+        <input
+          type="number"
+          name="height"
+          id="height"
+          value=""
+          min="2"
+          max="400"
+        />
+      </div>
+
+      <div class="inputBox">
+        <label for="weight">Weight (kg) :</label>
+        <input
+          type="number"
+          name="weight"
+          id="weight"
+          value=""
+          min="2"
+          max="200"
+        />
+      </div>
+
+      <div class="calculateBmi">
+        <button type="button" id="calculate_bmi">Calculate BMI</button>
+        <button type="button" id="reset">Reset</button>
+      </div>
+      <div style="margin-top: 2%; display: none;" class="result_box">
+        <span><strong>Result:  BMI = </strong></span>
+        <span><strong id="result">0.0</strong></span>
+        <span><strong>kg/m&sup2; </strong></span>
+      </div>
+      <div style="margin-top: 2%; display: none;" class="result_box">
+        <span><strong>BMI Type: </strong></span>
+        <span><strong id="result_tag"></strong></span>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+.formBox {
+    padding: 2%;
+    border: solid;
+    width: 20%;
+    background-color: azure;
+    justify-self: center;
+    align-self: center;
+}
+.inputBox {
+    margin-bottom: 4%;
+}
+button {
+    background-color: blue;
+    color: white;
+}
